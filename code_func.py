@@ -14,7 +14,7 @@ def fib(N):
         f_3 = f_n
         F.append(f_n)
     print(F)
-    
+
+
 if __name__ == '__main__':
     fib(10)
-   
