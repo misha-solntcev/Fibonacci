@@ -1,3 +1,2 @@
-from tkinter import N
 from code_func import fib
-fib(10)
+fib(30)
