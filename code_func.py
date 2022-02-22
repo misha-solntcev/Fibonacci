@@ -8,7 +8,7 @@ def fib(N):
     F.append(f_1)
     F.append(f_2)
     F.append(f_3)
-    for n in range(N-3):
+    for n in range(4, N):
         f_n = f_2 + f_3
         f_2 = f_3
         f_3 = f_n
@@ -16,5 +16,5 @@ def fib(N):
     print(F)
     
 if __name__ == '__main__':
-    fib(20)
+    fib(10)
    

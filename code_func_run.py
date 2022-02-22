@@ -1,2 +1,2 @@
 from code_func import fib
-fib(30)
+fib(10)
