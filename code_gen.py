@@ -14,6 +14,6 @@ def fib(n) -> Generator[int, None, None]:
 
 if __name__ == "__main__":
     F = []
-    for i in fib(50):
+    for i in fib(15):
         F.append(i)
     print(F)
